@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-3g2g
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0052-tenant/ci1t-43256-0052-app/devfile-sample-3g2g@sha256:be8eaf77733bf29e819a09ad8305e59cb27fcfd6138b0fad646275210d429c48
         name: my-nodejs
         ports:
         - containerPort: 3001
